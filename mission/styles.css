@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #333;
+}
+
+main h2 {
+    color: #666;
+}
+
+main p {
+    margin-bottom: 10px;
+
+}
+
+/* Footer styles */
+footer {
+    background-color: hsla(0, 100%, 50%, 0.1);
+    color: #c9afaf;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+img {
+    width: 120px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}

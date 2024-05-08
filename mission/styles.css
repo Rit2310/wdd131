@@ -1,71 +1,65 @@
-/* styles.css */
+/* Resetting default margin and padding */
+body, h1, h2, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
-/* Body styles */
+/* Setting a background color and font family */
 body {
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-/* Header styles */
-header {
+/* Centering the core content */
+.core {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     background-color: #fff;
-    color: 
-    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the title */
+.title {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-/* Navigation styles */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Main content styles */
-main {
-    padding: 20px;
-}
-
-main h1 {
+.title h1 {
+    font-size: 36px;
     color: #333;
 }
 
-main h2 {
-    color: #666;
+.subtitle h2 {
+    font-size: 24px;
+    color: #006EB6;
 }
 
-main p {
+/* Styling the main content */
+main {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    color: #444;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+li {
     margin-bottom: 10px;
-
 }
 
-/* Footer styles */
+/* Styling the footer */
 footer {
-    background-color: hsla(0, 100%, 50%, 0.1);
-    color: #c9afaf;
     text-align: center;
-    padding: 20px;
 }
 
-.logo {
-    width: 100px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
+footer img {
+    max-width: 100px;
+    height: auto;
 }
-img {
-    width: 120px; /* Set the width of the image */
-    height: auto; /* Automatically adjust the height to maintain aspect ratio */
-}
+

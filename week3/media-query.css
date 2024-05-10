@@ -1,0 +1,47 @@
+/*-------------------------------Global Styles----------------------------*/
+/* Sets default styles for typography, links, and foundational elements */
+
+header,
+ main, 
+ footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /*------------------------Layout and Grid System------------------------------------*/
+  /*Defines styles for the main layout components (header, footer, nav). */
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  
+  section {
+    padding: 1rem;
+    background-color: #fff;
+  }
+
+  
+/*------------------------------Responsive Styles------------------------------------*/
+/*Media queries for adapting the layout to different screen size. */
+
+@media screen and (min-width: 500px) {
+       header {
+        color: white;
+        background-color: black;
+       }
+
+
+
+main {
+    grid-template-columns: 1fr 1fr;
+}
+}
